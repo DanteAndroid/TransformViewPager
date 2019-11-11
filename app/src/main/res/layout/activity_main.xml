@@ -1,0 +1,87 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.coordinatorlayout.widget.CoordinatorLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <com.google.android.material.appbar.AppBarLayout
+            android:id="@+id/app_bar_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:elevation="0dp">
+
+            <com.google.android.material.appbar.CollapsingToolbarLayout
+                android:id="@+id/collapsing_toolbar_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:elevation="0dp"
+                app:expandedTitleMarginEnd="0dp"
+                app:expandedTitleMarginStart="0dp"
+                app:layout_scrollFlags="scroll|exitUntilCollapsed">
+
+                <include layout="@layout/activity_review_detail_header" />
+
+                <androidx.appcompat.widget.Toolbar
+                    android:id="@+id/toolbar"
+                    android:layout_width="match_parent"
+                    android:layout_height="?attr/actionBarSize"
+                    app:contentInsetEnd="0dp"
+                    app:contentInsetStart="0dp"
+                    app:layout_collapseMode="pin"
+                    app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+                    app:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+
+                </androidx.appcompat.widget.Toolbar>
+
+            </com.google.android.material.appbar.CollapsingToolbarLayout>
+
+        </com.google.android.material.appbar.AppBarLayout>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:visibility="visible"
+            app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+            <androidx.core.widget.NestedScrollView
+                android:id="@+id/reviewScrollView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:paddingStart="21dp"
+                    android:paddingEnd="21dp"
+                    android:paddingBottom="53dp">
+
+                    <TextView
+                        android:id="@+id/reviewContent"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="12.5dp"
+                        android:lineSpacingMultiplier="1.3"
+                        android:text="这部如此热播的剧也横扫黄金时段艾美奖喜剧类最佳剧集、最佳女主、最佳导演、最佳编剧、最佳女配五项大奖！也获得了金球奖音乐喜剧类最佳剧集和最佳女主。第二季仍然是诚意满满之作，三位女性编剧非常擅长在一带而过的细节中深度刻画那个年代的烙印，片中很多细节非常值得考究，而且隐藏的信息量也很大。细节有时更让人感动和惊喜。
+我想说，《了不起的麦瑟尔夫人》从来都不是一部女权爽剧，它在高饱和色，清新、温暖美好的喜剧外表之下，实则在讲述着生活的真实和残酷，人生的矛盾与纠结。
+它有着喜剧的外表，悲剧的内核。这部如此热播的剧也横扫黄金时段艾美奖喜剧类最佳剧集、最佳女主、最佳导演、最佳编剧、最佳女配五项大奖！也获得了金球奖音乐喜剧类最佳剧集和最佳女主。
+第二季仍然是诚意满满之作，三位女性编剧非常擅长在一带而过的细节中深度刻画那个年代的烙印，片中很多细节非常值得考究，而且隐藏的信息量也很大。细节有时更让人感动和惊喜。
+我想说，《了不起的麦瑟尔夫人》从来都不是一部女权爽剧，它在高饱和色，清新、温暖美好的喜剧外表之下，实则在讲述着生活的真实和残酷，人生的矛盾与纠结。
+它有着喜剧的外表，悲剧的内核。"
+                        android:textColor="#FF333333"
+                        android:textSize="15sp" />
+
+                </LinearLayout>
+
+            </androidx.core.widget.NestedScrollView>
+
+
+        </FrameLayout>
+
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+
+
+</FrameLayout>
