@@ -1,5 +1,5 @@
 # TransformViewPager
-A dynamic height viewpager who can transform its pages.
+A dynamic-height viewpager which can transform its pages.
 
 [![](https://jitpack.io/v/DanteAndroid/TransformViewPager.svg)](https://jitpack.io/#DanteAndroid/TransformViewPager)
 
@@ -9,7 +9,7 @@ A dynamic height viewpager who can transform its pages.
 
 ## Dependency
 ```
-implementation 'com.github.DanteAndroid:TransformViewPager:v0.1'
+  implementation 'com.github.DanteAndroid:TransformViewPager:v0.1'
 ```
 
 ## Usage
