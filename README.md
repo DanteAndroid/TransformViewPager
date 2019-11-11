@@ -9,7 +9,7 @@ A dynamic height viewpager who can transform its pages.
 
 ## Dependency
 ```
-  implementation 'com.github.DanteAndroid:TransformViewPager:v0.1'
+implementation 'com.github.DanteAndroid:TransformViewPager:v0.1'
 ```
 
 ## Usage
