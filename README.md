@@ -16,4 +16,4 @@ implementation 'com.github.DanteAndroid:TransformViewPager:v0.1'
 0. Use `TransformViewPager` which extends ViewPager
 1. Make your data item implement `Transformable`
 2. Make your ViewPager's adapter implement `TransformableAdapter`
-3. Of course set yoour TransformableAdapter for the TransformViewPager
+3. Of course set your TransformableAdapter for the TransformViewPager
