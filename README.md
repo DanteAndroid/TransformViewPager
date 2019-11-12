@@ -3,7 +3,7 @@ A dynamic-height viewpager which can transform its pages.
 
 [![](https://jitpack.io/v/DanteAndroid/TransformViewPager.svg)](https://jitpack.io/#DanteAndroid/TransformViewPager)
 
-## Demostration
+## Demonstration
 
 <img src="/demo.gif" width="385" height="680" />
 
