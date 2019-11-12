@@ -5,7 +5,7 @@ A dynamic-height viewpager which can transform its pages.
 
 ## Demostration
 
-<img src="/demo.gif" width="405" height="720" />
+<img src="/demo.gif" width="385" height="680" />
 
 ## Dependency
 ```
