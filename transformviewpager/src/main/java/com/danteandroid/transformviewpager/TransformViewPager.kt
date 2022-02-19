@@ -57,10 +57,11 @@ class TransformViewPager : ViewPager {
         requestLayout()
 
         println(
-            "onScrollChanged position $currentPosition, getRealHeight ${getRealHeight(
-                position
-            )}, " +
-                    "diffHeight $diff, layoutParams.height ${layoutParams.height}"
+            "onScrollChanged position $currentPosition, getRealHeight ${
+                getRealHeight(
+                    position
+                )
+            }, " + "diffHeight $diff, layoutParams.height ${layoutParams.height}"
         )
     }
 
